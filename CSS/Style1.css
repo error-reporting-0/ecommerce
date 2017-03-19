@@ -2,6 +2,16 @@ body
 {
     margin: auto;
     width: 1250px;
+    height: 10000px;
+}
+header
+{
+    margin: auto;
+    position: fixed;
+    
+    border: 2px solid black;
+    width: 1250px;
+    height: 90px;
 }
 #logo
 {
@@ -47,10 +57,10 @@ body
 #nav
 {
     margin: auto;
-    position: relative;
+    position: fixed;
     top: 95px;
     border: 2px solid black;
-    width: 100%;
+    width: 1250px;
     height: 60px;
     background-color:dimgrey;
 }
@@ -108,7 +118,7 @@ body
 #nav>div:hover
 {
     overflow: visible;
-    height: 304px;
+    height: 365px;
      transition:1s;
 }
 .navul
