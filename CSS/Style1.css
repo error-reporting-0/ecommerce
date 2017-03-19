@@ -8,10 +8,9 @@ header
 {
     margin: auto;
     position: fixed;
-    
     border: 2px solid black;
     width: 1250px;
-    height: 90px;
+    height: 91px;
 }
 #logo
 {
@@ -61,7 +60,7 @@ header
     top: 95px;
     border: 2px solid black;
     width: 1250px;
-    height: 60px;
+    height: 64px;
     background-color:dimgrey;
 }
 #man
