@@ -31,17 +31,18 @@ header
 {
     margin-left: 5px;
     float: right;
-    width: 90px;
-    height: 90px;
+    width: 89px;
+    height: 89px;
     border-radius: 50%;
     background-image: url(../images/cart.png);
+    background-size:auto;
 }
 #wishlist
 {
     margin-left: 5px;
     float: right;
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
     background-image: url(../images/wishlist.png);
 }
@@ -55,7 +56,14 @@ header
 }
 #nav
 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     border-top:2px solid lightgray;
+    border-bottom:2px solid lightgray;
     position: fixed;
     top: 91.2px;
     width: 1250px;
@@ -119,7 +127,7 @@ header
 }
 #nav>div:hover
 {
-    height: 387px;
+    height: 400px;
     transition:1s;
 }
 #nav>div:hover .navli {
@@ -127,6 +135,7 @@ header
     visibility: visible;
     background-color: lightgray;
     border: 2px solid darkgray;
+    
 }
 .navul
 {
@@ -138,13 +147,15 @@ header
 }
 .navli
 {
+    font-size: 18px;
     visibility: hidden;
     padding-top:  40px;
     
 }
 .navli1
 {
-    padding-bottom:  29px;
+    font-size: 25px;
+    padding-bottom:  18px;
     background-color: #9C5E5E;
 }
 a:visited
