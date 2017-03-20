@@ -127,7 +127,7 @@ header
 }
 #nav>div:hover
 {
-    height: 400px;
+    height: 390px;
     transition:1s;
 }
 #nav>div:hover .navli {
