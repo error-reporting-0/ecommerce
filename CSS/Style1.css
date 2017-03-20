@@ -6,8 +6,8 @@ body
 }
 header
 {
-    margin: auto;
     position: fixed;
+    margin: auto;
     border: 2px solid black;
     width: 1250px;
     height: 91px;
@@ -24,7 +24,6 @@ header
 {
     margin: auto;
     margin-left: 5px;
-    border: 2px solid black;
     min-width: 60%;
     float: left;
     height: 90px;
@@ -32,18 +31,20 @@ header
 #cart
 {
     margin-left: 5px;
-    border: 2px solid black;
     float: right;
     width: 90px;
     height: 90px;
+    border-radius: 50%;
+    background-image: url(../images/cart.png);
 }
 #wishlist
 {
     margin-left: 5px;
-    border: 2px solid black;
     float: right;
     width: 90px;
     height: 90px;
+    border-radius: 50%;
+    background-image: url(../images/wishlist.png);
 }
 #signin
 {
@@ -116,28 +117,43 @@ header
 }
 #nav>div:hover
 {
-    overflow: visible;
     height: 365px;
      transition:1s;
 }
+#nav>div:hover .navli {
+    transition: 1s;
+    visibility: visible;
+}
 .navul
 {
-     list-style: none;
-     padding: 0;
+   
+    list-style: none;
+    padding: 0;
     background-color:darkgray;
     text-align: center;
 }
 .navli
 {
-    padding-top:  40px;
+    visibility: hidden;
+    padding-top:  42px;
     border-bottom: 1px solid gray;
+    
 }
 .navli1
 {
+    padding-top: 3px;
     padding-bottom:  24px;
     background-color: dimgray;
 }
 a:visited
 {
     color: black;
+}
+a:link
+{
+     text-decoration: none;
+}
+#search
+{
+    float: right;
 }
