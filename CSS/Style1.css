@@ -1,44 +1,44 @@
-body
-{
+body {
     margin: auto;
     width: 1250px;
     height: 10000px;
 }
-header
-{
-    background-image:url(../images/logo.png);
+
+header {
+    background-color: #666;
+    background-image: url(../images/logo.png);
     position: fixed;
     margin: auto;
     width: 1250px;
     height: 91px;
 }
-#logo
-{
+
+#logo {
     margin: auto;
     float: left;
     width: 120px;
     height: 90px;
 }
-#searcharea
-{
+
+#searcharea {
     margin: auto;
     margin-left: 5px;
     min-width: 61%;
     float: left;
     height: 90px;
 }
-#cart
-{
+
+#cart {
     margin-left: 5px;
     float: right;
     width: 89px;
     height: 89px;
     border-radius: 50%;
     background-image: url(../images/cart.png);
-    background-size:auto;
+    background-size: auto;
 }
-#wishlist
-{
+
+#wishlist {
     margin-left: 5px;
     float: right;
     width: 88px;
@@ -46,127 +46,125 @@ header
     border-radius: 50%;
     background-image: url(../images/wishlist.png);
 }
-#signin
-{
+
+#signin {
     margin-left: 5px;
     border: 2px solid black;
     float: right;
     width: 150px;
     height: 90px;
 }
-#nav
-{
+
+#nav {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-top:2px solid lightgray;
-    border-bottom:2px solid lightgray;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
     position: fixed;
     top: 91.2px;
     width: 1250px;
     height: 64px;
     background-color: #9C5E5E;
 }
-#man
-{
-    border-left:2px solid lightgray;
-    border-right:2px solid lightgray;
+
+#man {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
     overflow: hidden;
     position: absolute;
     height: 64px;
-    width:18%;
+    width: 18%;
     float: left;
     left: 1%;
 }
-#woman
-{
-    border-left:2px solid lightgray;
-    border-right:2px solid lightgray;
+
+#woman {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
     overflow: hidden;
     position: absolute;
     height: 64px;
-    width:18%;
+    width: 18%;
     float: left;
     left: 21%;
 }
-#kid
-{
-    border-left:2px solid lightgray;
-    border-right:2px solid lightgray;
+
+#kid {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
     overflow: hidden;
     position: absolute;
     height: 64px;
-    width:18%;
+    width: 18%;
     float: left;
     left: 40.8%;
 }
-#technology
-{
-    border-left:2px solid lightgray;
-    border-right:2px solid lightgray;
+
+#technology {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
     overflow: hidden;
     position: absolute;
     height: 64px;
-    width:18%;
+    width: 18%;
     float: left;
     right: 21%;
 }
-#sport
-{
-    border-right:2px solid lightgray;
-    border-left:2px solid lightgray;
+
+#sport {
+    border-right: 2px solid lightgray;
+    border-left: 2px solid lightgray;
     overflow: hidden;
     position: absolute;
     height: 64px;
-    width:18%;
+    width: 18%;
     float: left;
     right: 1%;
 }
-#nav>div:hover
-{
+
+#nav>div:hover {
     height: 390px;
-    transition:1s;
+    transition: 1s;
 }
+
 #nav>div:hover .navli {
     transition: 1s;
     visibility: visible;
     background-color: lightgray;
     border: 2px solid darkgray;
-    
 }
-.navul
-{
-   
+
+.navul {
     list-style: none;
     padding: 0;
-    background-color:darkgray;
+    background-color: darkgray;
     text-align: center;
 }
-.navli
-{
+
+.navli {
     font-size: 18px;
     visibility: hidden;
-    padding-top:  40px;
-    
+    padding-top: 40px;
 }
-.navli1
-{
+
+.navli1 {
     font-size: 25px;
-    padding-bottom:  18px;
+    padding-bottom: 18px;
     background-color: #9C5E5E;
 }
-a:visited
-{
+
+a:visited {
     color: black;
 }
-a:link
-{
-     text-decoration: none;
+
+a:link {
+    text-decoration: none;
 }
-#search
-{
+
+#search {
     float: right;
 }
