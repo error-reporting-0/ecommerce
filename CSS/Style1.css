@@ -1,23 +1,24 @@
 body {
     margin: auto;
-    width: 1250px;
-    height: 10000px;
+    width: 92.7%;
+    height: 1000px;
 }
 
 header {
-    background-color: #666;
+    background-repeat: no-repeat;
+    background-color: #9C5E5E;
     background-image: url(../images/logo.png);
     position: fixed;
     margin: auto;
-    width: 1250px;
-    height: 91px;
+    width: 92.7%;
+    height: 14%;
 }
 
 #logo {
     margin: auto;
     float: left;
-    width: 120px;
-    height: 90px;
+    width: 122px;
+    height: 69pt;
 }
 
 #searcharea {
@@ -66,8 +67,8 @@ header {
     border-bottom: 2px solid lightgray;
     position: fixed;
     top: 91.2px;
-    width: 1250px;
-    height: 64px;
+    width: 92.7%;
+    height: 10%;
     background-color: #9C5E5E;
 }
 
@@ -146,13 +147,13 @@ header {
 }
 
 .navli {
-    font-size: 18px;
+    font-size: 110%;
     visibility: hidden;
     padding-top: 40px;
 }
 
 .navli1 {
-    font-size: 25px;
+    font-size: 170%;
     padding-bottom: 18px;
     background-color: #9C5E5E;
 }
